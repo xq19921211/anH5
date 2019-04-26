@@ -1,0 +1,18 @@
+.popupWrapper{
+  color: #333;
+  height: 60%;
+  .title{
+    display: flex;
+    padding: 0 0.16rem;
+    color: #168EFF;
+    border-bottom: 1px solid #ddd;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    >div{
+      flex: 1;
+    }
+    .confirm{
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.statement{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.16rem;
+  color: #6a6a6a;
+  .item{
+    width: 33.33%;
+    padding: 0.08rem;
+    font-size: 0.12rem;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #dddd;
+    background-color: #fff;
+    box-sizing: border-box;
+    &:nth-child(3n){
+      border-right: 0;
+    }
+    &:nth-child(7),
+    &:nth-child(8),
+    &:nth-child(9){
+      border-bottom: 0;
+    }
+    .title{
+      font-weight: 500;
+      font-size: 0.13rem;
+    }
+    .desc{
+      font-size: 0.10rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0.02rem 0 0.08rem 0;
+    }
+    .price{
+      font-size: 0.13rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

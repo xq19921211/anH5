@@ -1,0 +1,39 @@
+.list {
+  &__title {
+    padding: 0.16rem 0.08rem;
+    background: #fff;
+    margin-bottom: 0.01rem;
+    font-size: 0.16rem;
+  }
+  &__info {
+    &-item {
+      padding: 0.16rem 0.08rem;
+      background: #fff;
+      margin-bottom: 0.01rem;
+    }
+  }
+  .info {
+    float: left;
+    width: 96%;
+  }
+  .arrow {
+    float: right;
+    padding-top: 0.1rem;
+  }
+  .info-penel {
+    width: 100%;
+  }
+  .left {
+    float: left;
+    width: 60%;
+  }
+  .right {
+    float: right;
+  }
+  .label {
+    font-size: 0.14rem;
+  }
+  .price {
+    color: #ff2525;
+  }
+}

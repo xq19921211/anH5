@@ -1,0 +1,76 @@
+.list {
+  &_item {
+    margin-bottom: 0.16rem;
+    padding: 0 0.08rem;
+    background: #fff;
+    .title {
+      display: flex;
+      padding: 0.16rem 0;
+      border-bottom: 0.01rem solid #f1f1f1;
+      .label {
+        flex: 2;
+        color: #4c4c4c;
+        font-size: 0.14rem;
+      }
+      .status {
+        flex: 1;
+        color: #ee8787;
+        text-align: right;
+        font-size: 0.12rem;
+      }
+    }
+    .wrapper {
+      .clist {
+        &_item {
+          border-bottom: 0.01rem solid #f1f1f1;
+          .img {
+            float: left;
+            margin: 0.08rem;
+            margin-left: 0;
+            width: 0.8rem;
+            height: 0.8rem;
+            border-radius: 0.04rem;
+            background: #ccc;
+          }
+          .desc {
+            margin-left: 0.96rem;
+            padding: 0.2rem 0;
+            &_label {
+              color: #000;
+              font-size: 0.12rem;
+              opacity: 0.8;
+            }
+            &_lp {
+              color: #8f8f8f;
+              font-size: 0.11rem;
+              &__i {
+                padding-right: 0.08rem;
+                color: #fb6b6b;
+              }
+            }
+            &_total {
+              color: #ff2525;
+              font-size: 0.14rem;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      display: flex;
+      padding: 8rem 0;
+      .lf {
+        flex: 1;
+        color: #3d3d3d;
+        font-size: 14rem;
+        .price {
+          color: #ff2525;
+        }
+      }
+      .lr {
+        flex: 2;
+        text-align: right;
+      }
+    }
+  }
+}

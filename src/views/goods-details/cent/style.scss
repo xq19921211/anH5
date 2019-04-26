@@ -1,0 +1,34 @@
+.cent {
+  &__img {
+    background: #ccc;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    .img {
+      height: 1.7rem;
+      display: block;
+      width: 100%;
+      line-height: 1.7rem;
+    }
+  }
+  &__info {
+    padding: 0.16rem 0.08rem;
+    background: #fff;
+    .name {
+      color: #4b4b4b;
+      font-size: 0.18rem;
+    }
+    .desc {
+      color: #a4a4a4;
+      font-size: 0.13rem;
+    }
+    .price {
+      .promotion {
+        color: #ff2525;
+      }
+      .font {
+        font-size: 0.2rem;
+      }
+    }
+  }
+}

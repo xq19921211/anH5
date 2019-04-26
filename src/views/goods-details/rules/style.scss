@@ -1,0 +1,22 @@
+.rules {
+  padding: 0 0.08rem;
+  height: 0.4rem;
+  background: #fff;
+  line-height: 0.4rem;
+  cursor: pointer;
+  .desc {
+    float: left;
+    color: #4c4c4c;
+    font-size: 0.14rem;
+  }
+  .arrow {
+    text-align: right;
+    img {
+      width: 0.16rem;
+      height: 0.16rem;
+    }
+  }
+  .font {
+    font-size: 0.1rem;
+  }
+}

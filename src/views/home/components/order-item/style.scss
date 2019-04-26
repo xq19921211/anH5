@@ -1,0 +1,70 @@
+.orderItem{
+  .lists-item{
+    padding: 0.16rem 0.08rem;
+    background-color: #fff;
+    margin-bottom: 0.08rem;
+    .title{
+      display: flex;
+      .tit{
+        font-size: 0.13rem;
+      }
+      .status{
+        flex: 1;
+        text-align: right;
+        color: #ee8787;
+      }
+      //待接单 待作业
+      .djd, .dzy{
+        color: #1890ff;
+      }
+      // 作业中
+      .zyz{
+        color: #41b900;
+      }
+      // 待评价
+      .dpj{
+        color: #ffae00;
+      }
+      // 已完成
+      .ywc{
+        color: #191919;
+      }
+    }
+    .body{
+      color: #919191;
+      font-size: 0.10rem;
+      padding: 0.08rem 0 0.16rem 0;
+      .ops{
+        display: flex;
+        .rgt{
+          flex: 1;
+          text-align: right;
+          color: #ff452c;
+          font-size: 0.16rem;
+        }
+      }
+    }
+    .footer{
+      padding: 0.16rem 0 0 0;
+      border-top: 1px solid #ddd;
+      .user{
+        display: flex;
+        line-height: 0.24rem;
+        .img{
+          width: 0.24rem;
+          height: 0.24rem;
+          padding-right: 0.08rem;
+        }
+        .time{
+          flex: 1;
+          color: #919191;
+          text-align: right;
+        }
+      }
+    }
+    .butWrapper{
+      padding: 0.16rem 0 0 0;
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  .popup__box {
+    overflow-y: auto;
+    min-height: 50%;
+    max-height: 50%;
+    width: 100%;
+    &_title {
+      padding: 0.08rem;
+      border-bottom: 0.01rem solid #ddd;
+      .label {
+        float: left;
+        color: #4c4c4c;
+        font-size: 0.14rem;
+      }
+      .close {
+        float: right;
+        text-align: right;
+        cursor: pointer;
+        .img {
+          width: 0.16rem;
+          height: 0.16rem;
+        }
+      }
+    }
+    &_body {
+      padding: 0.16rem 0.08rem;
+    }
+  }
+}

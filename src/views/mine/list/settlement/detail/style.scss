@@ -1,0 +1,26 @@
+@import './../../../../../style/mixin.scss';
+.detail {
+  &__title {
+    padding: 0.16rem 0.08rem;
+    background: #fff;
+    font-size: 0.16rem;
+    margin-bottom: 0.01rem;
+  }
+  &__wrapper {
+    &-item {
+      @include clear_box;
+      padding: 0.08rem 0.08rem 0;
+      background: #fff;
+      .left {
+        float: left;
+        opacity: 0.6;
+      }
+      .right {
+        float: right;
+      }
+      .price {
+        color: #ff2525;
+      }
+    }
+  }
+}

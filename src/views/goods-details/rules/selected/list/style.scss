@@ -1,0 +1,25 @@
+.list {
+  &_item {
+    margin-bottom: 0.08rem;
+    .label {
+      margin-bottom: 0.08rem;
+      font-size: 0.14rem;
+    }
+    .clist {
+      &_item {
+        float: left;
+        margin-right: 0.08rem;
+        margin-bottom: 0.08rem;
+        padding: 0.08rem;
+        border: 0.01rem solid #ddd;
+        border-radius: 0.04rem;
+        font-size: 0.12rem;
+        &.is-active {
+          border-color: #26a2ff;
+          background: #26a2ff;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

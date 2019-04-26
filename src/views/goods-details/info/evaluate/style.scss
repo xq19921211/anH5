@@ -1,0 +1,46 @@
+.evaluate {
+  margin-top: -0.16rem;
+  .list {
+    padding: 0.16rem 0;
+    border-bottom: 0.01rem solid #f1f1f1;
+    &:last-child {
+      border-bottom: 0;
+    }
+    &-item {
+      margin-bottom: 0.08rem;
+      &.mg0 {
+        margin: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .title {
+        color: #4b4b4b;
+        font-size: 0.16rem;
+      }
+      .desc,
+      .times {
+        color: #a4a4a4;
+        font-size: 0.12rem;
+      }
+      .imgs {
+        &-item {
+          float: left;
+          margin: 0 0.08rem 0.08rem 0;
+          border: 0.01rem solid #f1f1f1;
+          img {
+            display: block;
+            width: 0.56rem;
+            height: 0.56rem;
+          }
+        }
+      }
+    }
+  }
+  .emtry {
+    padding: 0.16rem 0;
+    color: #a4a4a4;
+    font-size: 0.18rem;
+    text-align: center;
+  }
+}
